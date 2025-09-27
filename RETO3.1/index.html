@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario_Reto1</title>
+</head>
+<body>
+    <h1>CHECKOUT</h1>
+    <form>
+    <!-- Lista desplegable -->
+    <label for="metodo">Payment Method:</label>
+    <select id="metodo" name="metodo">
+      <option value="visa">Visa Ending in 4566</option>
+      <option value="amex">American Express Ending in 9122</option>
+      <option value="discover">Discover Ending in 9865</option>
+    </select>
+    <br><br>
+
+    <!-- Botones de opción -->
+    <fieldset>
+    <legend>Shipping Method</legend>
+    <ul>
+      <li>
+        <label for="title_1">
+          <input type="radio" id="title_1" name="title" value="K" />
+          FREE - 2 Day Shipping
+        </label>
+      </li>
+      <li>
+        <label for="title_2">
+          <input type="radio" id="title_2" name="title" value="Q" />
+          Shipping Standard (4 -5 Business Days)
+        </label>
+      </li>
+      <li>
+        <label for="title_3">
+          <input type="radio" id="title_3" name="title" value="J" />
+          Free - NFREE - No Rush Shipping(5 Business Days)
+        </label>
+      </li>
+    </ul>
+  </fieldset>
+  
+  <!-- Checkbox -->
+    <label for="gift">This is a gift</label>
+    <input type="checkbox" id="gift" name="gift">
+    <br><br>
+  <!-- Botón de envío -->
+    <button type="submit">Play Your Order</button>
+  </form>
+
+</body>
+</html>
